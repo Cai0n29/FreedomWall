@@ -1,4 +1,4 @@
-import "../style/header.css";
+import "../style/style.css";
 import { useEffect } from 'react';
 export const LandingPage = () => {
     useEffect (() => {

@@ -1,0 +1,75 @@
+.title{ /* title */
+   text-align: left;
+   font-family: 'Amaranth';
+   font-size: 40px;
+   font-weight: 200;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 10px; /* 5px for top/bottom and 40px for right/left */
+}
+
+.Heading { /* outer container*/
+  display: flex; /* aligns child elements (like the <h1> and .nav-links*/ 
+  justify-content: space-between; /* title left, links right and Put space inbetween */
+  align-items: center; /* Vertically centers the <h1> anf the links -ligning up neatly in the middle of the header*/
+  padding: 5px 30px;
+  border-radius: 8px; /*Rounds the corners of the header for a soft, modern look.*/
+}
+
+.links{
+  display:flex; /*Lays out the <a> links in a row inside the right section*/
+  gap:80px; /*Add space between each link*/
+  padding-right: 30px;
+  font-family: 'Antic';
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/*Middle Part*/
+.Container {
+  margin-bottom: 40px; /* Add spacing below the input group */
+}
+
+form{
+  display: flex;
+  justify-content: center; /*center things horizontally */
+  padding: 5px 30px;
+  border-radius: 8px;
+  flex-direction: row-reverse;
+  gap: 200px; /* Adds space between .Container and .notenbutton */
+}
+.notenbutton{
+  padding-right: 100px; 
+}
+.notenbutton h1{
+  font-family: "Amaranth";
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: -10px;
+}
+.notenbutton p{
+  padding-top: -10px;
+  font-family: "Antic";
+  word-spacing: 1px;
+  font-size: 17px;
+  padding:5px;
+}
+.notenbutton button{
+  background-color: #1fd373;
+  opacity: 0.8;
+  border: none;
+  color: black;
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
